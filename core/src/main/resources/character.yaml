@@ -1,0 +1,117 @@
+levels:
+  - level:
+      ordinal: 1
+      name: poor
+      cp: 0
+  - level:
+      ordinal: 2
+      name: below average
+      cp: 1
+  - level:
+      ordinal: 3
+      name: average
+      cp: 1
+  - level:
+      ordinal: 4
+      name: above average
+      cp: 2
+  - level:
+      ordinal: 5
+      name: good
+      cp: 3
+  - level:
+      ordinal: 6
+      name: excellent
+      cp: 5
+  - level:
+      ordinal: 7
+      name: exceptional
+      cp: 8
+  - level:
+      ordinal: 8
+      name: amazing
+      cp: 13
+  - level:
+      ordinal: 9
+      name: incredible
+      cp: 21
+  - level:
+      ordinal: 10
+      name: magnificent
+      cp: 34
+  - level:
+      ordinal: 11
+      name: Awesome
+      cp: 55
+  - level:
+      ordinal: 12
+      name: ultimate
+      cp: 89
+attributes:
+  - attribute:
+      name: strength
+      description: Determines your encumbrance, carry capacity and damage with primitive weapons.
+  - attribute:
+      name: dexterity
+      description: Determines your attack accuracy, as well as how good your active defences are.
+  - attribute:
+      name: intelligence
+      description: Determines your understanding of the nano technology, as well as how well you do at skills.
+  - attribute:
+      name: education
+      description: Determines your degree of formal education. A higher education allows you to select more specializations.
+  - attribute:
+      name: wounds
+      description: Determines how many wounds you can soak up before dying.
+skills:
+  - skill:
+      name: fencer
+      tags:
+        - melee
+        - attack
+      description: Determines your general skill at fighting with light, one-handed melee weapons.
+  - skill:
+      name: swordsman
+      tags:
+        - melee
+        - attack
+      description: Determines your general skill at fighting with light, two-handed melee weapons.
+  - skill:
+      name: phalanx
+      tags:
+        - melee
+        - attack
+      description: Determines your general skill at fighting with heavy battlefield weapons, like staves or halbards.
+  - skill:
+      name: pistols
+      tags:
+        - ranged
+        - attack
+      description: Determines your general skill at fighting with light, one-handed firearms.
+  - skill:
+      name: rifles
+      tags:
+        - ranged
+        - attack
+      description: Determines your general skill at fighting with light, two-handed firearms.
+  - skill:
+      name: gunner
+      tags:
+        - ranged
+        - attack
+      description: Determines your general skill at fighting with heavy, two-handed and mounted firearms.
+  - skill:
+      name: dodge
+      tags:
+        - defensive
+      description: Determines your general skill at dodging incoming attacks.
+  - skill:
+      name: block
+      tags:
+        - defensive
+      description: Determines your general skill at blocking incoming attacks with a shield.
+  - skill:
+      name: parry
+      tags:
+        - defensive
+      description: Determines your general skill at parrying incoming attacks with an equipped weapon.

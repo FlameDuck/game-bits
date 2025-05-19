@@ -30,6 +30,7 @@ dependencies {
 
     implementation("io.vavr:vavr:0.10.4")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.16.1")
+    implementation("org.fxyz3d:fxyz3d:0.6.0")
 
     implementation(project(":core"))
 }
